@@ -1,0 +1,221 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.3.6)  14 MAR 2012 16:05
+entering extended mode
+**C:/Users/Prateek/Desktop/Latex/Y11UC171/3/report.tex
+(C:/Users/Prateek/Desktop/Latex/Y11UC171/3/report.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\Users\Prateek\Desktop\Latex\Y11UC171\3\report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 6.
+ <lnmiit.jpg, id=1, 133.49875pt x 62.2325pt>
+File: lnmiit.jpg Graphic file (type jpg)
+ <use lnmiit.jpg> [1
+
+{C:/Users/Prateek/AppData/Local/MiKTeX/2.8/pdftex/config/pdftex.map} <C:/Users/
+Prateek/Desktop/Latex/Y11UC171/3/lnmiit.jpg>] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+ [3]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 45.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+
+Overfull \hbox (0.6981pt too wide) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/12 Linear ap-prox-i-ma-tion, New-ton and Pi-card method, Trape-z
+oidal
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ê in font cmr12!
+[4]
+Overfull \hbox (35.7799pt too wide) in paragraph at lines 80--81
+[]\OT1/cmr/m/n/12 Angular Kine-mat-ics,Moment of in-er-tia,Rotational mo-tion,T
+orque. 
+ []
+
+
+Overfull \hbox (50.70198pt too wide) in paragraph at lines 86--87
+[]\OT1/cmr/m/n/12 Turbine, Com-pres-sor,Boiler,Nozzle,Throttle,Condenser,Refrig
+erator. 
+ []
+
+
+Overfull \hbox (44.65761pt too wide) in paragraph at lines 91--92
+[]\OT1/cmr/m/n/12 Historical De-vel-op-ment of op-tics,Mechanical,Plane,Electro
+magnetic
+ []
+
+
+Overfull \hbox (41.10625pt too wide) in paragraph at lines 92--93
+[]\OT1/cmr/m/n/12 Poynting Vec-tor,Superposition of waves,standing waves,Resona
+nce. 
+ []
+
+[5]
+Overfull \hbox (47.56706pt too wide) in paragraph at lines 104--105
+[]\OT1/cmr/m/n/12 Introduction to Prob-lem Solv-ing,Flow charts, Trac-ing flow 
+charts,Sample
+ []
+
+
+Overfull \hbox (11.86049pt too wide) in paragraph at lines 115--117
+[]\OT1/cmr/m/n/12 Structures:Defining and pro-cess-ing, Pass-ing to a func-tion
+, Unions,
+ []
+
+[6]
+Overfull \hbox (9.26976pt too wide) in paragraph at lines 128--129
+[]\OT1/cmr/m/n/12 Kirchoff's Law,Thevenin and Nor-ton The-o-rem,Superposition
+ []
+
+
+Overfull \hbox (66.07268pt too wide) in paragraph at lines 130--131
+[]\OT1/cmr/m/n/12 Laplace Trans-form,Frequency Re-sponse,Bode plots,Star-Delta,
+Cramer's
+ []
+
+
+Overfull \hbox (53.24362pt too wide) in paragraph at lines 135--136
+[]\OT1/cmr/m/n/12 Difference,Summing,Integrator,Differentiator Am-pli-fiers,tem
+perature
+ []
+
+
+Overfull \hbox (2.14427pt too wide) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/12 POS,SOP,K-Map,Half Adder,Full Adder,BCD to 7 seg-ment
+ []
+
+
+Overfull \hbox (49.23117pt too wide) in paragraph at lines 144--145
+[]\OT1/cmr/m/n/12 Sequential Circuits,Comparators,Decoder,Encoder,Multiplexer,F
+lip-
+ []
+
+[7]
+Overfull \hbox (20.34651pt too wide) in paragraph at lines 159--160
+[]\OT1/cmr/m/n/12 Introduction to mea-sure-ment and anal-y-sis,Significant Fig-
+ures,Error
+ []
+
+[8] <baddy.jpg, id=34, 722.7pt x 481.8pt>
+File: baddy.jpg Graphic file (type jpg)
+ <use baddy.jpg>
+<tt.jpg, id=35, 219.82124pt x 219.82124pt>
+File: tt.jpg Graphic file (type jpg)
+ <use tt.jpg> [9 <C:/Users/Prateek/Desktop/Latex/Y11UC171/3/baddy.jpg> <C:/User
+s/Prateek/Desktop/Latex/Y11UC171/3/tt.jpg>] <p1.jpg, id=39, 722.7pt x 542.025pt
+>
+File: p1.jpg Graphic file (type jpg)
+ <use p1.jpg>
+<p2.jpg, id=40, 540.0175pt x 963.6pt>
+File: p2.jpg Graphic file (type jpg)
+ <use p2.jpg> [10 <C:/Users/Prateek/Desktop/Latex/Y11UC171/3/p1.jpg> <C:/Users/
+Prateek/Desktop/Latex/Y11UC171/3/p2.jpg>]
+[11] <p5.jpg, id=47, 180.675pt x 168.63pt>
+File: p5.jpg Graphic file (type jpg)
+ <use p5.jpg> [12 <C:/Users/Prateek/Desktop/Latex/Y11UC171/3/p5.jpg>]
+(C:\Users\Prateek\Desktop\Latex\Y11UC171\3\report.aux) ) 
+Here is how much of TeX's memory you used:
+ 979 strings out of 495285
+ 12546 string characters out of 3180389
+ 61572 words of memory out of 3000000
+ 4224 multiletter control sequences out of 15000+200000
+ 11104 words of font info for 38 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 25i,4n,19p,384b,172s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTe
+X 2.8/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.8/fo
+nts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.8/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb>
+Output written on report.pdf (12 pages, 349651 bytes).
+PDF statistics:
+ 71 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

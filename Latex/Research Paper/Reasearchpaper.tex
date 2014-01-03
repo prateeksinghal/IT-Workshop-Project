@@ -1,0 +1,609 @@
+\documentclass{article}
+\begin{document}
+\begin{center}
+\vspace{1cm}
+{\huge  The Calculus of Logic}
+\vspace{.25in}\\
+{\large George Boole\\}
+
+\vspace{.5cm}
+{\normalsize [\textit {Cambridge and Dublin Mathematical Journal}, Vol. III (1848), pp. 183–98]\\}
+\end{center}
+ \hspace{.2in}
+    {\normalsize In a work lately published\footnote[1]{\footnotesize{\textit {   The Mathematical Analysis of Logic, being an Essay towards a Calculus of Deductive
+Reasoning.
+} Cambridge, Macmillan; London, G. Bell.}} I ve exhibited the application of a new and
+peculiar form of Mathematics to the expression of the operations of the mind in
+reasoning. In the present essay I design to offer such an account of a portion of
+this treatise as may furnish a correct view of the nature of the system developed.
+I shall endeavour to state distinctly those positions in which its characteristic
+distinctions consist, and shall offer a more particular illustration of some fea-
+tures which are less prominently displayed in the original work. The part of
+the system to which I shall confine my observations is that which treats of cate-
+gorical propositions, and the positions which, under this limitation, I design to
+illustrate, are the following:\vspace{.05in}
+\hspace{.2in}
+
+ (1) That the business of Logic is with the relations of classes, and with the
+modes in which the mind contemplates those relations.\vspace{.05in}
+
+\hspace{.2in}
+
+ (2) That antecedently to our recognition of the existence of propositions,
+there are laws to which the conception of a class is subject,—laws which are
+dependent upon the constitution of the intellect, and which determine the char-
+acter and form of the reasoning process.\vspace{.05in}
+
+\hspace{.2in}
+
+
+    (3) That those laws are capable of mathematical expression, and that they
+thus constitute the basis of an interpretable calculus.\vspace{.05in}
+
+\hspace{.2in}
+
+
+    (4) That those laws are, furthermore, such, that all equations which are
+formed in subjection to them, even though expressed under functional signs,
+admit of perfect solution, so that every problem in logic can be solved by refer-
+ence to a general theorem.\vspace{.05in}
+
+\hspace{.2in}
+
+
+    (5) That the forms under which propositions are actually exhibited, in ac-
+cordance with the principles of this calculus, are analogous with those of a
+philosophical language.\vspace{.05in}
+
+\hspace{.2in}
+
+
+    (6) That although the symbols of the calculus do not depend for their in-
+terpretation upon the idea of quantity, they nevertheless, in their particular
+application to syllogism, conduct us to the quantitative conditions of inference.
+    It is specially of the two last of these positions that I here desire to offer
+illustration, they having been but partially exemplified in the work referred to.\vspace{.05in}
+
+ Other points will, however, be made the subjects of incidental discussion. It
+will be necessary to premise the following notation.\vspace{.05in}
+
+\hspace{.2in}
+
+    The universe of conceivable objects is represented by 1 or unity. This I
+assume as the primary and subject conception. All subordinate conceptions
+of class are understood to be formed from it by limitation, according to the
+following scheme.\vspace{.05in}
+
+\hspace{.2in}
+
+     Suppose that we have the conception of any group of objects consisting of
+Xs, Ys, and others, and that x, which we shall call an elective symbol, represents
+the mental operation of selecting from that group all the Xs which it contains,
+or of fixing the attention upon the Xs to the exclusion of all which are not Xs,
+y the mental operation of selecting the Ys, and so on; then, 1 or the universe
+being the subject conception, we shall have\vspace{.1in}
+
+\hspace{.4in}
+		\textit x 1 or \textit x  =  the class X,\vspace{.05in}
+
+\hspace{.4in}
+		\textit y 1 or \textit y = the class Y,\vspace{.05in}
+
+\hspace{.4in}
+       		\textit{xy} 1 or \textit{xy} = the class each member of which is both X and Y,\vspace{.1in}
+
+and so on.\\
+\hspace{.2in}In like manner we shall have\vspace{.1in}
+
+              \hspace{.6in} 1 - \textit x    =   the class  not-X,\\ \vspace{.005in}
+               \hspace{.8in}1 - \textit y   =   the class  not-Y,\\ \vspace{.005in}
+            \hspace{.6in}\textit x(1 - \textit y)  =   the class  whose members are Xs but not-Ys,\\ \vspace{.005in}
+     \hspace{.6in}(1 - \textit x)(1 - \textit y)   =   the class  whose members are neither Xs nor Ys,\\ \vspace{.005in}
+                  \hspace{.8in} \&c.\\ \vspace{.005in}
+  \hspace{.2in}Furthermore, from consideration of the nature of the mental operation involved, it will appear that the following laws are satisfied.\\
+ \hspace{.2in}  Representing by x, y, z any elective symbols whatever,
+\begin{equation}\textit{x(y + z) = xy + xz},\end{equation}
+\begin{equation}\textit{$xy = yx, \&c.,$},\end{equation}
+\begin{equation}\textit{$x^n = x, \&c.$},\end{equation}
+From the first of these it is seen that elective symbols are distributive in their
+operation; from the second that they are commutative. The third I have termed
+the index law; it is peculiar to elective symbols.\\ \vspace{.005in}
+\hspace{.2in} The truth of these laws does not at all depend upon the nature, or the
+number, or the mutual relations, of the individuals included in the different
+classes. There may be but one individual in a class, or there may be a thousand.
+There may be individuals common to different classes, or the classes may be
+mutually exclusive. All elective symbols are distributive, and commutative, and
+all elective symbols satisfy the law expressed by (3).\\ \vspace{.005in}
+\hspace{.2in} These laws are in fact embodied in every spoken or written language. The
+equivalence of the expressions “good wise man” and “wise good man,” is not a mere truism, but an assertion of the law of commutation exhibited in (2). And
+there are similar illustrations of the other laws.\\ \vspace{.005in}
+\hspace{.2in}
+    With these laws there is connected a general axiom. We have seen that al-
+gebraic operations performed with elective symbols represent mental processes.
+Thus the connexion of two symbols by the sign + represents the aggregation of
+two classes into a single class, the connexion of two symbols \textit{xy} as in multiplica-
+tion, represents the mental operation of selecting from a class Y those members
+which belong also to another class X, and so on. By such operations the concep-
+tion of a class is modified. But beside this the mind has the power of perceiving
+relations of equality among classes. The axiom in question, then, is that \textit{if a
+relation of equality is perceived between two classes, that relation remains unaf-
+fected when both subjects are equally modified by the operations above described.}
+(A). This axiom, and not “Aristotle’s dictum,” is the real foundation of all rea-
+soning, the form and character of the process being, however, determined by
+the three laws already stated.\\ \vspace{.005in}
+\hspace{.2in}
+    It is not only true that every elective symbol representing a class satisfies
+the index law (3), but it may be rigorously demonstrated that any combination
+of elective symbols $\phi(\textit{xyz}. .)$, which satisfies the law $\phi(\textit{xyz}. .)^n = \phi(\textit{xyz}. .),$ rep-
+resents an intelligible conception,—a group or class defined by a greater or less
+number of properties and consisting of a greater or less number of parts.\\ \vspace{.005in}
+\hspace{.2in}
+    The four categorical propositions upon which the doctrine of ordinary syllo-
+gism is founded, are\\ \vspace{.005in}
+\hspace{.4in}
+        All Ys are Xs.            A,\\ \vspace{.005in}
+\hspace{.4in}
+        No Ys are Xs.             E,\\ \vspace{.005in}
+\hspace{.4in}
+        Some Ys are Xs.           I,\\ \vspace{.1in}
+\hspace{.4in}
+        Some Ys are not Xs.       O.\\ \vspace{.005in}
+We shall consider these with reference to the classes among which relation is
+expressed.\\ \vspace{.005in}
+\hspace{.2in} A. The expression All Ys represents the class Y and will therefore be ex-
+pressed by \textit y, the copula are by the sign =, the indefinite term, Xs, is equivalent
+to Some Xs. It is a convention of language, that the word Some is expressed in
+the subject, but not in the predicate of a proposition. The term Some Xs will
+be expressed by \textit {vx}, in which \textit v is an elective symbol appropriate to a class V,
+some members of which are Xs, but which is in other respects arbitrary. Thus
+the proposition A will be expressed by the equation
+\begin{equation}\textit{y = vx.}\end{equation}
+\hspace{.2in}E. In the proposition, No Ys are Xs, the negative particle appears to be
+attached to the subject instead of to the predicate to which it manifestly be-
+longs.\footnote[2]{\footnotesize{There are but two ways in which the proposition, No Xs are Ys, can be understood. 1st,
+In the sense of All Xs are not-Y. 2nd, In the sense of It is not true that any Xs are Ys, i.e. the
+proposition “Some Xs are Ys” is false. The former of these is a single categorical proposition.}}We do not intend to say that those things which are not-Ys are Xs,
+but that things which are Ys are not-Xs. Now the class not-Xs is expressed by
+1 - \textit x; hence the proposition No Ys are Xs, or rather All Ys are not-Xs, will be
+expressed by
+                                     \begin{equation}\textit y =\textit v(1 -\textit x).\end{equation}                              
+\hspace{.2in}I. In the proposition Some Ys are Xs, or Some Ys are Some Xs, we might
+regard the Some in the subject and the Some in the predicate as having reference
+to the same arbitrary class V, and so write
+                                       \begin{center}$\textit{vy} = \textit{vx},$\end{center}
+but it is less of an assumption to refrain from doing this. Thus we should write
+                                       \begin{equation}\textit{vy = v'x,}\end{equation}                                
+v referring to another arbitrary class V'.\\\vspace{0.005in}
+\hspace{.2in}O. Similarly, the proposition Some Ys are not-Xs, will be expressed by the
+equation
+                                   \begin{equation}\textit{vy = v'(1 - x).}\end{equation}                       
+     It will be seen from the above that the forms under which the four categorical
+propositions A, E, I, O are exhibited in the notation of elective symbols are
+analogous with those of pure language, \textit{i.e.} with the forms which human speech
+would assume, were its rules entirely constructed upon a scientific basis. In a
+vast majority of the propositions which can be conceived by the mind, the laws
+of expression have not been modified by usage, and the analogy becomes more
+apparent, \textit{e.g.} the interpretation of the equation
+                                \begin{center}$\textit z =\textit x(1 -\textit y) +\textit y(1 -\textit x),$\end{center}
+is, the class Z consists of all Xs which are not-Ys and of all Ys which are not-Xs.\\
+
+\large{\textbf{General Theorems relating to Elective Functions.\\}}
+\normalsize{ We have now arrived at this step,—that we are in possession of a class of symbols
+x, y, z, \&c. satisfying certain laws, and applicable to the rigorous expression of
+any categorical proposition whatever. It will be our next business to exhibit a
+few of the general theorems of the calculus which rest upon the basis of those
+laws, and these theorems we shall afterwards apply to the discussion of particular
+examples.\\
+\hspace{.2in}Of the general theorems I shall only exhibit two sets: those which relate to
+the development of functions, and those which relate to the solution of equations.
+\footnote{\footnotesize{The latter is an assertion respecting a proposition, and its expression belongs to a distinct
+part of the elective system. It appears to me that it is the latter sense, which is really adopted
+by those who refer the negative, not, to the copula. To refer it to the predicate is not a useless
+refinement, but a necessary step, in order to make the proposition truly a relation between
+classes. I believe it will be found that this step is really taken in the attempts to demonstrate
+the Aristotelian rules of distribution.\\
+\hspace{.2in} 
+The transposition of the negative is a very common feature of language. Habit renders us
+almost insensible to it in our own language, but when in another language the same principle
+is differently exhibited, as in the Greek,$o\vartheta$ $\phi\eta\mu\iota$ for $o\vartheta$ $\phi\eta\mu\iota,$it claims attention.}}
+
+\large{\textbf{Theorems of Development.}}\vspace{0.1in}\\
+\normalsize{(1) If x be any elective symbol, then
+                           \begin{equation}\phi(\textit x) = \phi(1)\textit x + \phi(0)(1 - \textit x),\end{equation}
+the coefficients $\phi(1)$, $\phi(0)$, which are quantitative or common algebraic func-
+tions, are called the moduli, and x and 1 - x the constituents.\vspace{.05in}\\
+    (2) For a function of two elective symbols we have\vspace{.1in}\\
+  \begin{equation}\phi(xy) = \phi(11)xy + \phi(10)x(1 - y) + \phi(01)(1 - x)y + \phi(00)(1 - x)(1 - y),\end{equation}
+in which $\phi$(11), $\phi$(10), \&c. are quantitative, and are called the moduli, and xy,
+x(1 - y), \&c. the constituents.\vspace{.1in}\\
+    \hspace{.2in}(3) Functions of three symbols:\vspace{.05in}\\
+                 \begin{equation}\phi(xyz) = \phi(111)xyz + \phi(110)xy(1 - z)\vspace{.005in}\\
+                       			+\phi(101)x(1 - y)z + \phi(100)x(1 - y)(1 - z)\vspace{.005in}\\
+                       			+\phi(011)(1 - x)yz + \phi(010)(1 - x)y(1 - z)\vspace{.005in}\\
+                       			+\phi(001)xy(1 - z) + \phi(000)(1 - x)(1 - y)(1 - z)\vspace{.005in}\\,\end{equation}
+in which $\phi$(111), $\phi$(110), \&c. are the moduli, and xyz, xy(1 - z), \&c. the con-
+stituents.\vspace{.05in}
+
+\hspace{.2in}
+    From these examples the general law of development is obvious. And I desire
+it to be noted that this law is a mere consequence of the primary laws which
+have been expressed in (1), (2), (3).\vspace{.05in}
+
+\hspace{.2in}
+    THEOREM.\textit{If we have any equation $\phi$(xyz. .) = 0, and fully expand the first
+member, then every constituent whose modulus does not vanish may be equated
+to 0.}\vspace{.05in}
+
+\hspace{.2in}
+    This enables us to interpret any equation by a general rule.\vspace{.05in}
+
+\hspace{.2in}
+    RULE.\textit{ Bring all the terms to the first side, expand this in terms of all the
+elective symbols involved in it, and equate to 0 every constituent whose modulus
+does not vanish.}\vspace{.05in}
+
+\hspace{.2in}
+    For the demonstration of these and many other results, I must refer to the
+original work. It must be noted that on p. 66, z has been, through mistake,
+substituted for w, and that the reference on p. 80 should be to Prop. 2.\vspace{.05in}
+
+\hspace{.2in}
+    As an example, let us take the equation
+                                 \begin{equation}x + 2y - 3xy = 0.\end{equation}                          
+Here $\phi$(xy) = x + 2y - 3xy, whence the values of the moduli are\vspace{.05in}
+
+\hspace{.2in}
+                $\phi$(11) = 0,   $\phi$(10) = 1,    $\phi$(01) = 2,   $\phi$(00) = 0,\vspace{.1in}
+
+so that the expansion (9) gives
+
+  \begin{center}$\textit{x(1 - y) + 2y(1 - x) = 0,}$\end{center}\vspace{.1in}
+which is in fact only another form of (11). We have, then, by the Rule
+\begin{equation}x(1 - y) = 0,\end{equation}
+\begin{equation}y(1 - x) = 0; \end{equation}
+the former implies that there are no Xs which are not-Ys, the latter that there
+are no Ys which are not-Xs, these together expressing the full signicance of
+the original equation.\vspace{.05in}
+
+\hspace{.2in}
+We can, however, often recombine the constituents with a gain of simplicity.
+In the present instance, subtracting (12) from (11), we have x-y = 0, or x = y,
+that is, the class X is identical with the class Y. This proposition is equivalent
+to the two former ones.\vspace{.05in}
+
+\hspace{.2in}
+All equations are thus of equal significance which give, on expansion, the
+same series of constituent equations, and all are \textit{interpretable}.\vspace{.1in}
+
+\large{\textbf{General Solution of Elective Equations.}}\vspace{0.1in}\\
+\normalsize{(1) The general solution of the equation $\phi$(xy) = 0, in which two elective symbols
+only are involved, y being the one whose value is sought, is
+\begin{equation}\frac{\phi(10)}{\phi(10)-\phi(11)}x+\frac{\phi(00)}{\phi(00)-\phi(01)}(x-1).\end{equation} 
+The coefficients
+\begin{equation}\frac{\phi(10)}{\phi(10)-\phi(10)},     \frac{\phi(00)}{\phi(00)-\phi(01)}\end{equation}
+are here the moduli.\vspace{.05in}
+
+\hspace{.2in}
+(2) The general solution of the equation $\phi$(xyz) = 0, z being the symbol whose value is to be determined, is
+\begin{center}\begin{equation}z=\frac{\phi(110)}{\phi(110)-\phi(111)}xy+\frac{\phi(100)}{\phi(100)-\phi(101)}x(1-y)+\frac{\phi(010)}{\phi(010)-\phi(011)}(1-x)y+\frac{\phi(000)}{\phi(000)-\phi(001)}(1-x)(1-y)\end{equation}\end{center}
+the coefficients of which we shall still term the moduli. The law of their formation
+will readily be seen, so that the general theorems which have been given for
+the solution of elective equations of two and three symbols, may be regarded as
+examples of a more general theorem applicable to all elective equations whatever.
+in applying these results it is to be observed, that if a modulus assume the form $\frac{0}{0}$  it is to be replaced by an arbitrary elective symbol $\omega$, and that if a modulus assume any numerical value except 0 or 1, the constituent of which
+it is a factor must be separately equated to 0. Although these conditions are
+deduced solely from the laws to which the symbols are obedient, and without
+any reference to interpretation, they nevertheless render the solution of every
+equation interpretable in logic. To such formulae also every question upon the
+relations of classes may be referred. One or two very simple illustrations may
+suffice.\vspace{.05in}
+
+\hspace{.2in}
+(1) Given yx = yz + x(1 - z).
+The Ys which are Xs consist of the Ys which are Zs and the Xs which are not-Zs.
+Required the class Z.\vspace{.05in}
+
+\hspace{.2in}
+Here $\phi$(xyz) = yx - yz - x(1 - z),
+\begin{center}$\phi$(111) = 0, $\phi$(110) = 0,$\phi$(101) = 0\vspace{.05in}\\
+$\phi$(100) = -1, $\phi$(011) = -1,  $\phi$(010) = 0 \vspace{.05in}\\
+$\phi$(001) = 0, $\phi$(000) = 0;\end{center}
+and substituting in (14), we have 
+\begin{equation}z=\frac{0}{0}xy+x(1-y)+\frac{0}{0}(1-x)(1-y)\\
+			=x(1-y)+wxy+w'(1-x)(1-y).\end{equation}
+
+Hence the class Z includes all Xs which are not-Ys, an indefinite number of
+Xs which are Ys, and an indefinite number of individuals which are neither Xs
+nor Ys. The classes w and w' being quite arbitrary, the indefinite remainder is
+equally so; it may vanish or not.\footnote[3]{\footnotesize{This conclusion may be illustrated and verified by considering an example such as the
+following.
+Let x denote all steamers, or steam-vessels,
+y denote all armed vessels,
+z denote all vessels of the Mediterranean.
+Equation (a) would then express that armed steamers consist of the armed vessels of the
+Mediterranean and the steam-vessels not of the Mediterranean. From this it follows-
+(1) That there are no armed vessels except steamers in the Mediterranean.
+(2) That all unarmed steamers are in the Mediterranean (since the steam-vessels not of the
+Mediterranean are armed). Hence we infer that the vessels of the Mediterranean consist of
+all unarmed steamers; any number of armed steamers; and any number of unarmed vessels
+without steam. This, expressed symbolically, is equation (15).}}.\vspace{.05in}
+
+\hspace{.2in}
+Since 1 - z represents a class, not-Z, and satisfies the index law\\
+\begin{center}$(1-z)^n=1-z,$\end{center}
+as is evident on trial, we may, if we choose, determine the value of this element
+just as we should determine that of z.\vspace{.05in}
+
+\hspace{.2in}
+Let us take, in illustration of this principle, the equation y = vx, (All Ys are
+Xs), and seek the value of 1 - x, the class not-X..\vspace{.05in}
+
+\hspace{.2in}
+
+Put 1-x = z then y = v(1-z), and if we write this in the form y-v(1-z) = 0
+and represent the first member by $\phi$(vyz), v here taking the place of x, in (14),
+we shall have
+\begin{center}
+$\phi$(111) = 1,  $\phi$(110) = 0,  $\phi$(101) = 0,  $\phi$(100) = -1,\vspace{.05in}\\
+$\phi$(011) = 1,  $\phi$(010) = 1,  $\phi$(001) = 0,  $\phi$(000) = 0\end{center}
+the solution will thus assume the form
+\begin{center}$z=\frac{0}{0-1}vy+\frac{-1}{-1-0}v(1-y)+\frac{1}{1-1}(1-v)y+\frac{0}{0-0}(1-v)(1-y),$\end{center}
+or
+\begin{equation}1-x=v(1-y)+\frac{1}{0}(1-v)y+\frac{0}{0}(1-v)(1-y).\end{equation}
+The infinite coefficient of the second term member permits us to write
+\begin{equation}y(1-v)=0,\end{equation}
+or
+the coefficient $\frac{0}{0}$
+being then replaced by w, an arbitrary elective symbol, we have
+\begin{center}1-x=v(1-y)+w(1-v)(1-y),\end{center}
+or
+\begin{equation}1-x=\{v+w(1-v)\}(1-y).\end{equation}
+
+We may remark upon this result that the coefficeint  v+w(1-v) in the second member satisfies the condition
+\begin{center}$ \{v+w(1-v)\}^n = v+w(1-v),$\end{center}
+as is evident on squaring it. It therefore represents a class. We may replace it
+by an elective symbol u, we have then
+\begin{equation}1-x = u(1-y),\end{equation}
+the interpretation of which is.\vspace{.05in}
+
+\hspace{.2in}
+All not-Xs are not-Ys.\vspace{.1in}\\
+
+This is a known transformation in logic, and is called conversion by contraposition,
+or negative conversion. But it is far from exhausting the solution we
+have obtained. Logicians have overlooked the fact, that when we convert the
+proposition All Ys are (some) Xs into All not-Xs are (some) not-Ys there is a
+relation between the two (somes), understood in the predicates. The equation
+(18) shews that whatever may be that condition which limits the Xs in the original
+proposition,|the not-Ys in the converted proposition consist of all which
+are subject to the same condition, and of an arbitrary remainder which are not
+subject to that condition. The equation (17) further shews that there are no Ys
+which are not subject to that condition.\vspace{.1in}\\
+\hspace{.2in} We can similarly reduce the equation y = v(1-x), No Ys are Xs, to the form
+x = v'(1 - y) No Xs are Ys, with a like relation between v and v'. If we solve
+the equation y = vx All Ys are Xs, with reference to v, we obtain the subsidiary
+relation y(1-x) = 0 No Ys are not-Xs, and similarly from the equation y = v(1-
+x) (No Ys are Xs) we get xy = 0. These equations, which may also be obtained
+in other ways, I have employed in the original treatise. All equations whose
+interpretations are connected are similarly connected themselves, by solution or
+development.\vspace{.1in}\\
+
+\large{\bf On Syllogism.}\vspace{.1in}\\
+\normalsize
+The forms of categorical propositions already deduced are\vspace{.1in}\\
+\hspace*{.2in}y = vx, All Ys are Xs,\\
+\hspace*{.2in}y = v(1 - x), No Ys are Xs,\\
+\hspace*{.2in}vy = v'x, Some Ys are Xs,\\
+\hspace*{.2in}vy = v'(1 - x), Some Ys are not-Xs,\\
+whereof the two first give, by solution, 1-x = v'(1-y). All not-Xs are not-Ys,
+x = v'(1 - y), No Xs are Ys. To the above scheme, which is that of Aristotle,
+we might annex the four categorical propositions\vspace{.1in}\\
+\hspace*{.2in} 1 - y = vx, All not-Ys are Xs,\\
+\hspace*{.2in} 1 - y = v(1 - x), All not-Ys are not-Xs,\\
+\hspace*{.2in} v(1 - y) = v'x, Some not-Ys are Xs,\\
+\hspace*{.2in} v(1 - y) = v'(1 - x), Some not-Ys are not-Xs,\\
+the first two of which are similarly convertible into\vspace{.1in}\\
+\hspace*{.2in} 1 - x = v'y, All not-Xs are Ys,\\
+\hspace*{.2in}x = v'y, All Xs are Ys,\\
+\hspace*{.5in}or No not-Xs are Ys,\vspace{.1in}\\
+\hspace*{.1in}If now the two premises of any syllogism are expressed by equations of the
+above forms, the elimination of the common symbol y will lead us to an equation
+expressive of the conclusion.\vspace{.1in}\\
+\hspace*{.2in} Ex. 1. All Ys are Xs, y = vx,\\
+\hspace*{.4in} All Zs are Ys, z = v'y,\\
+the elimination of y gives\\
+\begin{center} z = vv'x, \end{center}
+the interpretation of which is\vspace{.1in}\\
+\hspace*{.2in} All Zs are Xs,\\
+the form of the coefficient vv' indicates that the predicate of the conclusion
+is limited by both the conditions which separately limit the predicates of the
+premises.\vspace{.1in}\\
+\hspace*{.2in} Ex. 2. All Ys are Xs, y = vx,\\
+\hspace*{.5in}All Ys are Zs, y = v'z.\vspace{.1in}\\
+The elimination of y gives
+\begin{center} v'z = vx; \end{center}
+which is interpretable into Some Zs are Xs. It is always necessary that one
+term of the conclusion should be interpretable by means of the equations of the
+premises. In the above case both are so.\vspace{.2in}\\
+\hspace*{.2in} Ex. 3. All Xs are Ys, x = vy,\vspace{.1in}\\
+\hspace*{.2in} No Zs are Ys, z = v'(1 - y).\vspace{.1in}\\ 
+Instead of directly eliminating y let either equation be transformed by solution
+as in (19). The first gives
+\begin{center} 1 - y = u(1 - x), \end{center}
+u being equivalent to v + w(1 - v), in which w is arbitrary. Eliminating 1 - y
+between this and the second equation of the system, we get
+\begin{center} z = v'u(1 - x), \end{center}
+the interpretation of which is\vspace{.1in}\\
+\hspace*{.2in} No Zs are Xs.\vspace{.1in}\\
+Had we directly eliminated y, we should have had
+\begin{center} vz = v'(v - x), \end{center}
+the reduced solution of which is
+\begin{center} z = v'\{v + (1 - v)\}(1 - x),\end{center}
+in which w is an arbitrary elective symbol. This exactly agrees with the former
+result.\vspace{.1in}\\
+\hspace*{.2in} These examples may suffice to illustrate the employment of the method in
+particular instances. But its applicability to the demonstration of general theorems
+is here, as in other cases, a more important feature. I subjoin the results
+of a recent investigation of the Laws of Syllogism. While those results are characterized
+by great simplicity and bear, indeed, little trace of their mathematical
+origin, it would, I conceive, have been very difficult to arrive at them by the
+examination and comparison of particular cases.\vspace{.3in}\\
+\large{\bf Laws of Syllogism deduced from the Elective Calculus.}\vspace{.1in}\\
+\normalsize
+We shall take into account all propositions which can be made out of the classes
+X, Y, Z, and referred to any of the forms embraced in the following system,.\vspace{.1in}\\
+\hspace*{.2in} A, All Xs are Zs.\hspace*{.3in}  A', All not-Xs are Zs..\vspace{.1in}\\
+\hspace*{.2in} E, No Xs are Zs.\hspace{.3in} E',No not-Xs are Zs, or (All not-Xs are not-Zs.).\vspace{.1in}\\
+\hspace*{.2in} I, Some Xs are Zs.\hspace{.3in} I', Some not-Xs are Zs..\vspace{.1in}\\
+\hspace*{.2in} O, Some Xs are not-Zs. O', Some not-Xs are not-Zs..\vspace{.1in}\\
+\hspace*{.1in} It is necessary to recapitulate that quantity (universal and particular) and
+quality (affirmative and negative) are understood to belong to the terms of
+propositions which is indeed the correct view.\footnote[4]{\footnotesize{When propositions are said to be affected with quantity and quality, the quality is really
+that of the predicate, which expresses the nature of the assertion, and the quantity that of
+the subject, which shews its extent.}}\vspace{.1in}\\
+\hspace*{.1in} Thus, in the proposition All Xs are Ys, the subject All Xs is universal-affirmative, the predicate (some) Ys particular-affirmative.\vspace{.1in}\\
+\hspace*{.2in} In the proposition, Some Xs are Zs, both terms are particular-affirmative.
+The proposition No Xs are Zs would in philosophical language be written in
+the form All Xs are not-Zs. The subject is universal-affirmative, the predicate
+particular-negative.\vspace{.1in}\\
+\hspace*{.2in} In the proposition Some Xs are not-Zs, the subject is particular-affirmative,
+the predicate particular-negative. In the proposition All not-Xs are Ys the
+subject is universal-negative, the predicate particular-affirmative, and so on..\vspace{.1in}\\
+\hspace*{.2in} In a pair of premises there are four terms, viz. two subjects and two predicates;
+two of these terms, viz. those involving the Y or not-Y may be called the
+middle terms, the two others the extremes, one of these involving X or not-X,
+the other Z or not-Z.\vspace{.1in}\\
+\hspace*{.2in} 
+The following are then the conditions and the rules of inference..\vspace{.1in}\\
+\hspace*{.2in} 
+Case 1st. The middle terms of like quality.\\
+Condition of Inference. One middle term universal.\\
+Rule. Equate the extremes.\vspace{.1in}\\
+\hspace*{.2in} 
+Case 2nd. The middle terms of opposite qualities.\\
+1st. Condition of Inference. One extreme universal.\\
+Rule. Change the quantity and quality of that extreme, and equate the
+result to the other extremes.\vspace{.1in}\\
+\hspace*{.2in} 
+2nd. Condition of inference. Two universal middle terms.\\
+Rule. Change the quantity and quality of either extreme, and equate the
+result to the other extreme.\vspace{.1in}\\
+\hspace*{.2in} 
+I add a few examples,\\
+\hspace*{.1in}1st All Ys are Xs.\\
+\hspace*{.1in}All Zs are Ys..\vspace{.1in}\\
+\hspace*{.2in} 
+This belongs to Case 1. All Ys is the universal middle term. The extremes
+equated give All Zs are Xs, the stronger term becoming the subject.\vspace{.1in}\\
+\hspace*{.2in} 
+2nd All Xs are Ys \hspace*{.3in} All Xs are Ys\\
+\hspace*{.2in} No Zs are Ys \hspace*{.66in} No Zs are not-Ys\vspace{.1in}\\
+\hspace*{.2in}
+This belongs to Case 2, and satisfies the first condition. The middle term
+is particular-affirmative in the first premise, particular-negative in the second.
+Taking All-Zs as the universal extreme, we have, on changing its quantity and
+quality, Some not-Zs, and this equated to the other extreme gives\vspace{.1in}\\
+\hspace*{.2in}
+All Xs are (some) not-Zs = No Xs are Zs.\vspace{.1in}\\
+If we take All Xs as the universal extreme we get\vspace{.1in}\\
+\hspace*{.2in}
+No Zs are Xs.\vspace{.1in}\\
+\hspace*{.2in}
+3rd All Xs are Ys.\vspace{.1in}\\
+\hspace*{.35in}
+Some Zs are not-Ys.\vspace{.1in}\\
+\hspace*{.2in}
+This also belongs to Case 2, and satisfies the first condition. The universal
+extreme All Xs becomes, some not-Xs, whence\vspace{.1in}\\
+\hspace*{.2in}
+Some Zs are not-Xs.\vspace{.1in}\\
+\hspace*{.2in}
+4th All Ys are Xs.\vspace{.1in}\\
+\hspace*{.4in}
+All not-Ys are Zs.\vspace{.1in}\\
+\hspace*{.2in}
+This belongs to Case 2, and satisfies the second condition. The extreme
+Some Xs becomes All not-Xs,\vspace{.1in}\\
+\hspace*{.2in}
+Therefore, All not-Xs are Zs.\vspace{.1in}\\
+The other extreme treated in the same way would give\vspace{.1in}\\
+\hspace*{.2in}
+All not-Zs are Xs,\vspace{.1in}\\
+which is an equivalent result.\vspace{.1in}\\
+\hspace*{.2in}
+If we confine ourselves to the Aristotelian premises A, E, I, O, the second
+condition of inference in Case 2 is not needed. The conclusion will not necessarily
+be confined to the Aristotelian system.\vspace{.1in}\\
+\hspace*{.2in}
+Ex. Some Ys are not-Xs \hspace*{.2in} Some Ys are not-Xs\vspace{.1in}\\
+\hspace*{.4in}
+No Zs are Ys \hspace*{.4in} All Zs are not-Ys\vspace{.1in}\\
+\hspace*{.2in}
+This belongs to Case 2, and satisfies the first condition. The result is\vspace{.1in}\\
+\hspace*{.2in} Some not-Zs are not-Xs.\vspace{.1in}\\
+\hspace*{.2in}
+These appear to me to be the ultimate laws of syllogistic inference. They
+apply to every case, and they completely abolish the distinction of figure, the
+necessity of conversion, the arbitrary and partial\footnote[5]{\footnotesize{Partial, because they have reference only to the quantity of the X, even when the proposition
+relates to the not-X. It would be possible to construct an exact counterpart to the
+Aristotelian rules of syllogism, by quantifying only the not-X. The system in the text is
+symmetrical because it is complete.}} rules of distribution, \&c. If
+all logic were reducible to the syllogism these might claim to be regarded as
+the rules of logic. But logic, considered as the science of the relations of classes 
+has been shewn to be of far greater extent. Syllogistic inference, in the elective
+system, corresponds to elimination. But this is not the highest in the order
+of its processes. All questions of elimination may in that system be regarded
+as subsidiary to the more general problem of the solution of elective equations.
+To this problem all questions of logic and of reasoning, without exception, may
+be referred. For the fuller illustrations of this principle I must however refer
+to the original work. The theory of hypothetical propositions, the analysis of
+the positive and negative elements, into which all propositions are ultimately
+resolvable, and other similar topics are also there discussed.\vspace{.1in}\\
+\hspace*{.2in}
+Undoubtedly the final aim of speculative logic is to assign the conditions
+which render reasoning possible, and the laws which determine its character
+and expression. The general axiom (A) and the laws (1), (2), (3), appear to
+convey the most definite solution that can at present be given to this question.
+When we pass to the consideration of hypothetical propositions, the same laws
+and the same general axiom which ought perhaps also to be regarded as a
+law, continue to prevail, the only difference being that the subjects of thought
+are no longer classes of objects, but cases of the coexistent truth or falsehood of
+propositions. Those relations which logicians designate by the terms conditional,
+disjunctive, \&c., are referred by Kant to distinct conditions of thought. But it
+is a very remarkable fact, that the expressions of such relations can be deduced
+the one from the other by mere analytical process. From the equation y = vx,
+which expresses the \emph{conditional} proposition, "If the proposition Y is true the
+proposition X is true," we can deduce
+\begin{center} yx + (1 - y)x + (1 - y)(1 - x) = 1,\end{center}
+which expresses the \emph{disjunctive} proposition, "Either Y and X are together true,
+or X is true and Y is false, or they are both false," and again the equation
+y(1 - x) = 0, which expresses a relation of coexistence, viz. that the truth of
+Y and the falsehood of X do not coexist. The distinction in the mental regard,
+which has the best title to be regarded as fundamental, is, I conceive, that of the
+affirmative and the negative. From this we deduce the direct and the inverse in
+operations, the true and the false in propositions, and the opposition of qualities
+in their terms.\vspace{.1in}\\
+\hspace*{.2in}
+The view which these enquiries present of the nature of language is a very
+interesting one. They exhibit it not as a mere collection of signs, but as a system
+of expression, the elements of which are subject to the laws of the thought which
+they represent. That those laws are as rigorously mathematical as are the laws
+which govern the purely quantitative conceptions of space and time, of number
+and magnitude, is a conclusion which I do not hesitate to submit to the exactest
+scrutiny.
+
+                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
